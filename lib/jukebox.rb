@@ -19,7 +19,8 @@ def play(songs)
   end
 end
 
-def list
+def list(songs)
+  songs.each_with_index 
   
 end
 
