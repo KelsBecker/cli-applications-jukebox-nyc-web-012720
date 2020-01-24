@@ -10,7 +10,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  binding.pry
   if user_input.to_i >= 1 && user_input.to_i <= songs.length
     puts "Playing #{songs[user_input.to_i]}"
   elsif songs.include?(user_input)
