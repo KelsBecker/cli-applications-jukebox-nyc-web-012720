@@ -8,6 +8,7 @@ def help
 end
 
 def play(songs)
+  binding.pry
   puts "Please enter a song name or number:"
   user_input = gets.strip
   if user_input.to_i >= 1 && user_input.to_i <= songs.length
